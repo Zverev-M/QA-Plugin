@@ -1,9 +1,0 @@
-{
-
-  "fields" : [
-    {
-      "fieldName" : "Repository Ref",
-      "fieldType" : "DEFAULT_TEXT"
-    }
-   ]
-}

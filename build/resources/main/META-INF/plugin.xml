@@ -1,0 +1,19 @@
+<idea-plugin>
+  <version>1.0-SNAPSHOT</version>
+  <change-notes>
+      Add change notes here.&lt;br&gt;
+      &lt;em&gt;most HTML tags may be used&lt;/em&gt;</change-notes>
+  <idea-version since-build="193.6494" until-build="193.*"/>
+  <id>org.example.MyCommentPlugin</id>
+  <name>Answer-Question</name>
+  <vendor>Zverev Mikhail</vendor>
+  <description>This is my practice plugin with "Question-Answer" style</description>
+  <depends>com.intellij.modules.platform</depends>
+  <extensions defaultExtensionNs="com.intellij"/>
+  <actions>
+    <action id="com.Plugin.action.ShowNewQuestions" class="com.Plugin.action.ShowNewQuestions" text="Show New Questions" description="Action for showing new questions from your friends">
+      <add-to-group group-id="ToolsMenu" anchor="first"/>
+      <keyboard-shortcut keymap="$default" first-keystroke="ctrl alt UP"/>
+    </action>
+  </actions>
+</idea-plugin>

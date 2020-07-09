@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<options>
+  <configurable id="preferences.keymap" configurable_name="Keymap">
+    <option name="action" path="ActionManager" hit="Action for showing new questions from your colaborators" />
+    <option name="colaborators" path="ActionManager" hit="Action for showing new questions from your colaborators" />
+    <option name="for" path="ActionManager" hit="Action for showing new questions from your colaborators" />
+    <option name="from" path="ActionManager" hit="Action for showing new questions from your colaborators" />
+    <option name="new" path="ActionManager" hit="Action for showing new questions from your colaborators" />
+    <option name="questions" path="ActionManager" hit="Action for showing new questions from your colaborators" />
+    <option name="showing" path="ActionManager" hit="Action for showing new questions from your colaborators" />
+    <option name="your" path="ActionManager" hit="Action for showing new questions from your colaborators" />
+    <option name="new" path="ActionManager" hit="Show New Questions" />
+    <option name="questions" path="ActionManager" hit="Show New Questions" />
+    <option name="show" path="ActionManager" hit="Show New Questions" />
+  </configurable>
+</options>
+
