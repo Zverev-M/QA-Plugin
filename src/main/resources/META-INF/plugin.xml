@@ -15,5 +15,10 @@
 
     <actions>
         <!-- Add your actions here -->
+        <action id="com.Plugin.action.ShowNewQuestions" class="com.Plugin.action.ShowNewQuestions"
+                text="Show New Questions" description="Action for showing new questions from your friends">
+            <add-to-group group-id="ToolsMenu" anchor="first"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="ctrl alt UP"/>
+        </action>
     </actions>
 </idea-plugin>
